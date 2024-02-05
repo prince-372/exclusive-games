@@ -5,7 +5,7 @@ import night from "../assets/image/casino-night.webp";
 
 const Casino = () => {
   return (
-    <div className="  bg-sec6bg min-[1441px]:bg-white bg-no-repeat bg-center bg-cover py-[340px]">
+    <div className=" bg-white  sm:bg-sec6bg lg:bg-transparent min-[1441px]:bg-white bg-no-repeat bg-center bg-cover py-[70px] sm:py-[340px]">
       <div className="max-w-[1140px] px-3 mx-auto ">
         <div className=" grid lg:grid-cols-2 grid-cols-1 gap-11">
           <div className=" flex flex-col justify-center">
@@ -20,8 +20,10 @@ const Casino = () => {
               ganar ya! Creamos tu plataforma en solo 2 semanas.
             </p>
             <div className=" relative pt-6">
-                <Secondarybtn name="Aprende más"/>
-                <span className="absolute -left-1 -bottom-1"><ButtonBottom2/></span>
+              <Secondarybtn name="Aprende más" />
+              <span className="absolute -left-1 -bottom-1">
+                <ButtonBottom2 />
+              </span>
             </div>
           </div>
           <div>
