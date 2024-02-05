@@ -98,7 +98,7 @@ const Jackport = () => {
             </div>
           </div>
           <div className=" relative w-full duration-300 group items-center">
-            <img className="w-full rounded-lg z-10" src={live} alt="ezugi" />
+            <img className="w-full relative rounded-lg z-10" src={live} alt="ezugi" />
             <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
                 <Primarybtn text="Reproducir ahora" />
