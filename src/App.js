@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Mynav from './components/Mynav';
+import Hero from './components/Hero';
+import Mision from './components/Mision';
+import Nuestros from './components/Nuestros';
+import Jackport from './Jackport';
+import Casino from './components/Casino';
+import Elegirnos from './components/Elegirnos';
+import Ofertas from './components/Ofertas';
+import Luxury from './components/Luxury';
+import Platinum from './components/Platinum';
+import Ellos from './components/Ellos';
+import Preguntas from './components/Preguntas';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-[#00141b]'>
+      <div className='bg-[url("./assets/image/bg-hero-img.webp")] bg-no-repeat bg-cover bg-center'>
+       <Mynav/>
+       <Hero/>
+      </div>
+      <Mision/>
+      <Nuestros/>
+     <div className=' bg-[url("./assets/image/bg-sec-img.png")] bg-no-repeat bg-cover bg-center'>
+      <Jackport/>
+      </div>
+      <Casino/>
+      <Elegirnos/>
+      <Ofertas/>
+      <Luxury/>
+      <Platinum/>
+      <Ellos/>
+      <Preguntas/>
+      <Footer/>
     </div>
   );
 }
