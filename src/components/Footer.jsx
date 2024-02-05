@@ -21,17 +21,23 @@ const Footer = () => {
                 dedicadas al desarrollo de multiplataformas para juegos de azar
               </p>
               <div className=" flex gap-5 pt-3 sm:pt-6">
-                <a href="https://www.instagram.com/" target="_blank">
+                <a
+                  className=" hover:scale-110 duration-300"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
                   <span>
                     <Instagram />
                   </span>
                 </a>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a                   className=" hover:scale-110 duration-300"
+ href="https://www.facebook.com/" target="_blank">
                   <span>
                     <Facebook />
                   </span>
                 </a>
                 <a
+                      className=" hover:scale-110 duration-300"
                   href="https://www.linkedin.com/home?originalSubdomain=in"
                   target="_blank"
                 >
@@ -45,13 +51,13 @@ const Footer = () => {
               <div className=" flex flex-wrap flex-row -mx-3">
                 <div className="sm:w-1/2  w-full lg:w-1/3 px-3">
                   <ul>
-                    <li className=' font-["inter"] font-bold text-[16px]  leading-6  text-[#FFFFFF] pt-[10px]'>
+                    <li className=' font-["inter"] font-bold text-[16px]  leading-6  text-[#FFFFFF] hover:text-white pt-[10px]'>
                       Menú principal
                     </li>
                     <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         Hogar
                       </a>
@@ -59,7 +65,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         Misión
                       </a>
@@ -67,7 +73,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         Tragamonedas
                       </a>
@@ -75,7 +81,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         Por qué elegirnos
                       </a>
@@ -83,7 +89,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         Ofertas
                       </a>
@@ -98,7 +104,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         ¿Necesitas ayuda?
                       </a>
@@ -106,7 +112,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         política de privacidad
                       </a>
@@ -114,7 +120,7 @@ const Footer = () => {
                     <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
-                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
+                        className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC] hover:text-white  leading-6'
                       >
                         Términos de servicios
                       </a>
@@ -128,7 +134,7 @@ const Footer = () => {
                     </li>
                     <li className=" ">
                       <a href="mailto:juegosexclusivos@gmail.com">
-                        <span className=' flex flex-nowrap items-center gap-2 font-["inter"] font-bold text-[16px]  leading-6  text-[#CCCCCC]  pt-[10px]'>
+                        <span className=' flex flex-nowrap items-center gap-2 font-["inter"] font-bold text-[16px]  leading-6 hover:text-white  text-[#CCCCCC]  pt-[10px]'>
                           <span>
                             <Mail />
                           </span>
@@ -138,7 +144,7 @@ const Footer = () => {
                     </li>
                     <li className="">
                       <a href="tel:(101)342-7873">
-                        <span className=' flex flex-nowrap items-center gap-2 font-["inter"] font-bold text-[16px]  leading-6  text-[#CCCCCC]  pt-[10px]'>
+                        <span className=' flex flex-nowrap items-center gap-2 font-["inter"] font-bold text-[16px]  leading-6 hover:text-white  text-[#CCCCCC]  pt-[10px]'>
                           <span>
                             <Phone />
                           </span>
