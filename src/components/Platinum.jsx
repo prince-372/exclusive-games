@@ -30,8 +30,10 @@ const Platinum = () => {
                   </p>
                 </span>
                 <div className="mt-[40px] relative">
-                  <Primarybtn text="Comprar ahora" />
-                  <span className="absolute -left-1 -bottom-1">
+                  <div className="relative z-[3]">
+                    <Primarybtn text="Comprar ahora" />
+                  </div>
+                  <span className="absolute z-0 -left-1 -bottom-1">
                     <ButtonBottom />
                   </span>
                 </div>

@@ -86,8 +86,10 @@ const Luxury = () => {
                   </p>
                 </span>
                 <div className=" flex justify-center mt-[36px] mb-[45px]  pb-5  relative">
-                  <Secondarybtn name="Comprar ahora" />
-                  <span className="absolute left-[23%] bottom-3">
+                  <div className=" relative z-[3]">
+                    <Secondarybtn name="Comprar ahora" />
+                  </div>
+                  <span className="absolute z-0 left-[23%] bottom-3">
                     <ButtonBottom2 />
                   </span>
                 </div>

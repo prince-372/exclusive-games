@@ -13,24 +13,24 @@ const Ellos = () => {
         <div className=' relative w-full duration-300 group items-center'>
      <img className='w-full rounded-lg' src={giros} alt="ezugi" />
      <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
-                                        <div className="relative"><Primarybtn text="Rcasinovip" />
-                                            <span className="absolute -left-1 -bottom-1"><ButtonBottom/></span>
+                                        <div className="relative z-[3]"><Primarybtn text="Rcasinovip" />
+                                            <span className="absolute z-0 -left-1 -bottom-1"><ButtonBottom/></span>
                                         </div>
                                     </div>
  </div>
         <div className=' relative w-full duration-300 group items-center'>
      <img className='w-full rounded-lg' src={todos} alt="ezugi" />
      <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
-                                        <div className="relative"><Primarybtn text="Rcasinovip" />
-                                            <span className="absolute -left-1 -bottom-1"><ButtonBottom/></span>
+                                        <div className="relative z-[3]"><Primarybtn text="Rcasinovip" />
+                                            <span className="absolute z-0 -left-1 -bottom-1"><ButtonBottom/></span>
                                         </div>
                                     </div>
  </div>
         <div className=' relative w-full duration-300 group items-center'>
      <img className='w-full rounded-lg' src={happy} alt="ezugi" />
      <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
-                                        <div className="relative"><Primarybtn text="Rcasinovip" />
-                                            <span className="absolute -left-1 -bottom-1"><ButtonBottom/></span>
+                                        <div className="relative z-[3]"><Primarybtn text="Rcasinovip" />
+                                            <span className="absolute z-0 -left-1 -bottom-1"><ButtonBottom/></span>
                                         </div>
                                     </div>
  </div>

@@ -75,8 +75,10 @@ const Jackport = () => {
             <img className="w-full rounded-lg z-10" src={ezugi} alt="ezugi" />
             <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
-                <Primarybtn text="Reproducir ahora" />
-                <span className="absolute -left-1 -bottom-1">
+                <div className=" relative z-[3]">
+                  <Primarybtn text="Reproducir ahora" />
+                </div>
+                <span className="absolute z-0 -left-1 -bottom-1">
                   <ButtonBottom />
                 </span>
               </div>
@@ -90,8 +92,10 @@ const Jackport = () => {
             />
             <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
-                <Primarybtn text="Reproducir ahora" />
-                <span className="absolute -left-1 -bottom-1">
+                <div className=" relative z-[3]">
+                  <Primarybtn text="Reproducir ahora" />
+                </div>
+                <span className="absolute z-0 -left-1 -bottom-1">
                   <ButtonBottom />
                 </span>
               </div>
@@ -101,8 +105,10 @@ const Jackport = () => {
             <img className="w-full relative rounded-lg z-[1]" src={live} alt="ezugi" />
             <div className="absolute flex items-center justify-center z-[4] top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
-                <Primarybtn text="Reproducir ahora" />
-                <span className="absolute -left-1 -bottom-1">
+                <div className=" relative z-[3]">
+                  <Primarybtn text="Reproducir ahora" />
+                </div>
+                <span className="absolute z-0 -left-1 -bottom-1">
                   <ButtonBottom />
                 </span>
               </div>

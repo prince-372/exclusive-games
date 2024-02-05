@@ -100,8 +100,10 @@ const Nuestros = () => {
               />
               <div className="absolute flex items-center justify-center w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
                 <div className="relative">
-                  <Primarybtn text="Jugar" />
-                  <span className="absolute -left-1 -bottom-1">
+                  <div className=" relative z-[2]">
+                    <Primarybtn text="Jugar" />
+                  </div>
+                  <span className="absolute z-0 -left-1 -bottom-1">
                     <ButtonBottom />
                   </span>
                 </div>
@@ -110,11 +112,13 @@ const Nuestros = () => {
           ))}
         </div>
         <div className="relative mx-auto mt-5 sm:mt-7 md:mt-10">
-          <Secondarybtn
-            cstm="  border-[0px] !text-black"
-            name="Mostrar más"
-          />
-          <span className="absolute -left-1 -bottom-1">
+          <div className=" relative z-[2]">
+            <Secondarybtn
+              cstm="  border-[0px] !text-black"
+              name="Mostrar más"
+            />
+          </div>
+          <span className="absolute z-0 -left-1 -bottom-1">
             <ButtonBottom2 />
           </span>
         </div>

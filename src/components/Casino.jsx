@@ -20,8 +20,10 @@ const Casino = () => {
               ganar ya! Creamos tu plataforma en solo 2 semanas.
             </p>
             <div className=" relative pt-6">
-              <Secondarybtn name="Aprende más" />
-              <span className="absolute -left-1 -bottom-1">
+              <div className=" relative z-[3]">
+                <Secondarybtn name="Aprende más" />
+              </div>
+              <span className="absolute z-0 -left-1 -bottom-1">
                 <ButtonBottom2 />
               </span>
             </div>

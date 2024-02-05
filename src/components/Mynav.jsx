@@ -39,8 +39,10 @@ const Mynav = () => {
                     </ul>
                     <div className='relative items-center lg:gap-5'>
                         <div className='hidden sm:flex '>
-                            <Primarybtn text='Acceso' />
-                            <span className="absolute -left-1 -bottom-1"><ButtonBottom/></span>
+                            <div className="relative z-[2]">
+                                <Primarybtn text='Acceso' />
+                            </div>
+                            <span className="absolute z-0 -left-1 -bottom-1"><ButtonBottom/></span>
                         </div>
                     </div>
                     <label className='lg:hidden' onClick={show}>

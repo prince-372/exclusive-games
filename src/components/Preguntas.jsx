@@ -171,8 +171,10 @@ const Preguntas = () => {
           </h2>
           <div className="flex justify-center">
             <div className="relative">
-              <Secondarybtn name="Leer más" />
-              <span className="absolute -left-1 -bottom-1">
+              <div className="relative z-[3]">
+                  <Secondarybtn name="Leer más" />
+              </div>
+              <span className="absolute z-0 -left-1 -bottom-1">
                 <ButtonBottom2 />
               </span>
             </div>
