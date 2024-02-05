@@ -10,10 +10,10 @@ const Mynav = () => {
     function show() {
         setNav(!nav)
         if (nav === false) {
-            document.body.classList.add("max-lg:overflow-hidden")
+            document.body.classList.add("max-lg:!overflow-hidden")
         }
         else {
-            document.body.classList.remove("max-lg:overflow-hidden")
+            document.body.classList.remove("max-lg:!overflow-hidden")
         }
     };
     return (
