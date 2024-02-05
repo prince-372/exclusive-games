@@ -4,8 +4,8 @@ import { ButtonBottom2 } from "./Icones";
 
 const Hero = () => {
   return (
-    <div className=" max-w-[1140px] mx-auto px-3 pt-[140px] pb-[222px]">
-      <h2 className=" text-[72px] font-normal leading-[86.4px] text-white max-w-[543px] mx-auto font-Anton">
+    <div className=" max-w-[1140px] mx-auto px-3 sm:pt-[140px] pt-[70px] sm:pb-[222px]">
+      <h2 className=" sm:text-[72px] text-[56px] font-normal sm:leading-[86.4px] leading-[65px] text-white max-w-[543px] mx-auto font-Anton text-center lg:text-start">
         Exclusive Games. Pasión por ganar
       </h2>
       <p className=" text-base leading-[25.6px] font-medium font-Inter text-center text-[#CECFD1] max-w-[727px] mx-auto pt-4">
@@ -14,9 +14,13 @@ const Hero = () => {
         nuestra vida consumimos todo tipo de juegos hasta que un día decidimos
         crear los propios.
       </p>
-      <div className=" relative flex justify-center pt-10" >
-        <Secondarybtn name="Empezar"/>
-        <span className=" absolute left-[42%] -bottom-2"><ButtonBottom2/></span>
+      <div className="  flex justify-center pt-10">
+        <div className=" relative">
+          <Secondarybtn name="Empezar" />
+          <span className=" absolute -left-1 -bottom-1">
+            <ButtonBottom2 />
+          </span>
+        </div>
       </div>
     </div>
   );

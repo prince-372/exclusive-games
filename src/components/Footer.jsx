@@ -1,21 +1,26 @@
 import React from "react";
 import PageLogo from "../assets/image/logo.webp";
-import { Facebook, Instagram, Linkedin, Phone } from "./Icones";
-import { Mail } from "./Icones";
+import { Facebook, Instagram, Linkedin, Mail, Phone } from "./Icones";
 
 const Footer = () => {
   return (
-    <>
-      <div className=" bg-[#000000] py-[20px] relative overflow-hidden">
+    <div className="relative overflow-x-clip">
+      <div className="w-[180px] max-lg:hidden h-[180px] rounded-full bg-blue-307 absolute bottom-0 left-0 z-[3] blur-[180px] animate-pulse"></div>
+      <div className="w-[180px] max-lg:hidden h-[180px] rounded-full bg-blue-307 absolute top-0 right-0 z-[3] blur-[180px] animate-pulse"></div>
+      <div className=" bg-[#000000] pb-7 md:py-10 lg:py-[20px] relative overflow-hidden">
         <div className=" max-w-[1160px] container mx-auto px-3 ">
-          <div className=" flex flex-wrap  flex-row -mx-3 pt-[50px]">
-            <div className="w-full xl:w-1/3 px-3">
-              <img src={PageLogo} alt="Footerlogo" />
+          <div className=" flex flex-wrap  flex-row -mx-3 pt-3 sm:pt-5 md:pt-[50px]">
+            <div className="w-full xl:w-1/3 px-3 sm:pt-0 pt-[70px]">
+              <div>
+                <a href="#">
+                  <img src={PageLogo} alt="Footerlogo" />
+                </a>
+              </div>
               <p className='font-["inter"] font-medium text-[16px]  leading-6  max-w-[369px] text-[#CCCCCC] pt-[16px]'>
                 En Exclusive Games somos un equipo apasionado de personas
                 dedicadas al desarrollo de multiplataformas para juegos de azar
               </p>
-              <div className=" flex gap-5 pt-6">
+              <div className=" flex gap-5 pt-3 sm:pt-6">
                 <a href="https://www.instagram.com/" target="_blank">
                   <span>
                     <Instagram />
@@ -36,14 +41,14 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="w-full xl:w-2/3 px-3 pt-5 xl:pt-0">
+            <div className="w-full xl:w-2/3 px-3 pt-3 sm:pt-5 xl:pt-0">
               <div className=" flex flex-wrap flex-row -mx-3">
                 <div className="sm:w-1/2  w-full lg:w-1/3 px-3">
                   <ul>
                     <li className=' font-["inter"] font-bold text-[16px]  leading-6  text-[#FFFFFF] pt-[10px]'>
                       Menú principal
                     </li>
-                    <li className=" pt-4">
+                    <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -51,7 +56,7 @@ const Footer = () => {
                         Hogar
                       </a>
                     </li>
-                    <li className=" pt-4">
+                    <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -59,7 +64,7 @@ const Footer = () => {
                         Misión
                       </a>
                     </li>
-                    <li className=" pt-3">
+                    <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -67,7 +72,7 @@ const Footer = () => {
                         Tragamonedas
                       </a>
                     </li>
-                    <li className=" pt-3">
+                    <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -75,7 +80,7 @@ const Footer = () => {
                         Por qué elegirnos
                       </a>
                     </li>
-                    <li className=" pt-3">
+                    <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -90,7 +95,7 @@ const Footer = () => {
                     <li className=' font-["inter"] font-bold text-[16px]  leading-6  text-[#FFFFFF] pt-[10px]'>
                       Atención al cliente
                     </li>
-                    <li className=" pt-4">
+                    <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -98,7 +103,7 @@ const Footer = () => {
                         ¿Necesitas ayuda?
                       </a>
                     </li>
-                    <li className=" pt-4">
+                    <li className=" pt-2 sm:pt-4">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -106,7 +111,7 @@ const Footer = () => {
                         política de privacidad
                       </a>
                     </li>
-                    <li className=" pt-3">
+                    <li className=" pt-2 sm:pt-3">
                       <a
                         href="#"
                         className=' font-["inter"] font-medium text-[16px] text-[#CCCCCC]  leading-6'
@@ -153,7 +158,7 @@ const Footer = () => {
           © Juegos exclusivos - Todos los derechos reservados 2024
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -7,11 +7,13 @@ import live from "./assets/image/live.webp";
 import Primarybtn from "./components/Primarybtn";
 const Jackport = () => {
   return (
-    <>
+    <div className=" relative overflow-x-clip">
+      <div className="w-[484px] max-lg:hidden h-[484px] rounded-full bg-blue-307 absolute top-[-12%] left-[-10%] z-[3] blur-[180px] animate-pulse"></div>
+      <div className="w-[484px] max-lg:hidden h-[484px] rounded-full bg-blue-307 absolute bottom-0 right-[-12%] z-[3] blur-[180px] animate-pulse"></div>
       <div className=" max-w-[1140px] px-3 mx-auto pt-[90px] ">
         <div className=" grid lg:grid-cols-2 grid-cols-1 gap-7 ">
           <div className=" flex flex-col items-center">
-            <img src={jackport} alt="jackport" />
+            <img className=" z-10" src={jackport} alt="jackport" />
           </div>
           <div className=" flex flex-col items-center">
             <h2 className=" text-[48px] font-Anton font-normal leading-[57.6px] text-white pt-5">
@@ -70,7 +72,7 @@ const Jackport = () => {
         </p>
         <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-[60px] gap-6">
           <div className=" relative w-full duration-300 group items-center">
-            <img className="w-full rounded-lg" src={ezugi} alt="ezugi" />
+            <img className="w-full rounded-lg z-10" src={ezugi} alt="ezugi" />
             <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
                 <Primarybtn text="Reproducir ahora" />
@@ -81,7 +83,11 @@ const Jackport = () => {
             </div>
           </div>
           <div className=" relative w-full duration-300 group items-center">
-            <img className="w-full rounded-lg" src={roulette} alt="ezugi" />
+            <img
+              className="w-full rounded-lg z-10"
+              src={roulette}
+              alt="ezugi"
+            />
             <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
                 <Primarybtn text="Reproducir ahora" />
@@ -92,7 +98,7 @@ const Jackport = () => {
             </div>
           </div>
           <div className=" relative w-full duration-300 group items-center">
-            <img className="w-full rounded-lg" src={live} alt="ezugi" />
+            <img className="w-full rounded-lg z-10" src={live} alt="ezugi" />
             <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full duration-300 bg-black rounded-lg opacity-0 group-hover:opacity-100 bg-opacity-70">
               <div className="relative">
                 <Primarybtn text="Reproducir ahora" />
@@ -104,7 +110,7 @@ const Jackport = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

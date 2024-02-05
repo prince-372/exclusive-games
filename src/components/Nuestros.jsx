@@ -14,6 +14,7 @@ import {
   Person,
   Sating,
 } from "./Icones";
+import Secondarybtn from "./Secondarybtn";
 const Nuestros = () => {
   const slotsData = [
     {
@@ -109,9 +110,9 @@ const Nuestros = () => {
           ))}
         </div>
         <div className="relative mx-auto mt-5 sm:mt-7 md:mt-10">
-          <Primarybtn
-            cstm="bg-gradient-to-br to-[#51C8EF] from-[#7AF57A] border-[0px] !text-black"
-            text="Mostrar más"
+          <Secondarybtn
+            cstm="bg-gradient-to-br to-[#51C8EF] from-[#7AF57A]  border-[0px] !text-black"
+            name="Mostrar más"
           />
           <span className="absolute -left-1 -bottom-1">
             <ButtonBottom2 />

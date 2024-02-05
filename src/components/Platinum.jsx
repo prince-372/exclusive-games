@@ -5,14 +5,14 @@ import Primarybtn from "./Primarybtn";
 
 const Platinum = () => {
   return (
-    <div>
+    <div className="">
       <div className="bg-[#00141B] relative z-[1]">
-        <span className="w-[484px] absolute opacity-50 left-[-314px] top-[-100px] blur-[150px] z-[-1] h-[484px] bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)]"></span>
+        <span className="w-[484px] hidden sm:block absolute opacity-50 left-[-314px] top-[-100px] blur-[150px] z-[-1] h-[484px] bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)]"></span>
         <div className="max-w-[1140px] mx-auto px-3 sm:pt-[100px] pb-[110px]">
           <div className="bg-[#062024] border-[0.5px] border-solid border-[#FFFFFF80] relative z-[1] overflow-hidden">
-            <span className="w-[162px] absolute right-[110px] top-[110px] blur-[60px] z-[-1] h-[162px] bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)]"></span>
+            <span className="w-[162px] hidden sm:block absolute right-[110px] top-[110px] blur-[60px] z-[-1] h-[162px] bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)]"></span>
             <div className="grid lg:grid-cols-2  mt-[78px] mb-[78px] ">
-              <div className=" col-span-1 ps-[50px] px-3 flex flex-col items-center lg:items-start">
+              <div className=" col-span-1 sm:ps-[50px] ps-0 px-3 flex flex-col items-center lg:items-start">
                 <h2 className="text-[32px] mt-[43px]  text-white leading-[41.6px] font-Anton font-normal ">
                   Platinum
                 </h2>
@@ -20,7 +20,7 @@ const Platinum = () => {
                   Diseño totalmente personalizado. Contáctanos para un
                   presupuesto.
                 </p>
-                <h2 className="text-[48px] mt-[32px] text-white leading-[57.6px] font-normal font-Anton">
+                <h2 className="text-[48px] mt-[32px] text-white leading-[57.6px] font-normal font-Anton text-center lg:text-start">
                   Consultar precio
                 </h2>
                 <span className="flex gap-[8px] mt-[16px] items-center">
